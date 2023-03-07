@@ -1,0 +1,3 @@
+# Project exclude paths
+/api-passenger/target/
+/service-map/target/

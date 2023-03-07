@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    host: 192.168.64.150
+    port: 6379
+    password: 123456
+    timeout: 5000ms # 连接超时时间（毫秒）
+    database: 0
+  application:
+    name: api-passenger
+#  datasource:
+#    username: root
+#    password: Xing@7679
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.183.128:3306/dongbao?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+#    type: com.alibaba.druid.pool.DruidDataSource
